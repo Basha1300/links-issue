@@ -8,13 +8,19 @@ export default function Home() {
         <div>Frontend</div>
         <ul style={{ display: "flex" }}>
           <li>
-            <Link href={"/about"}>About</Link>
+            <Link prefetch={false} href={"/about"}>
+              About
+            </Link>
           </li>
           <li>
-            <Link href={"/contact"}>Contact</Link>
+            <Link prefetch={false} href={"/contact"}>
+              Contact
+            </Link>
           </li>
           <li>
-            <Link href={"/product"}>Product</Link>
+            <Link prefetch={false} href={"/product"}>
+              Product
+            </Link>
           </li>
         </ul>
       </div>
